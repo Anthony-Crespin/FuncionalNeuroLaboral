@@ -81,7 +81,7 @@ nav.pined{
 }
 
 .portal{
-    background-image: url(imagenes/bg-portal.png);
+    background-image: url(../imagenes/bg-portal.png);
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -561,5 +561,37 @@ hr{
 
     .contacto-desc{
         width: 300px;
+    }
+
+    .portal{
+        display: block;
+        padding: 200px 50px 50px;
+    }
+    
+    .logo{
+        position: relative;
+    }
+    
+    .logo img{
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .mockup{
+        position: relative;
+    }
+    
+    .mockup .circulo{
+        display: none;
+    }
+    
+    .mockup img{
+        position: relative;
+        width: 80%;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%,0);
     }
 }
