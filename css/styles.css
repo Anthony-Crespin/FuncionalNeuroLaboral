@@ -497,7 +497,11 @@ hr{
     }
 
     nav li:hover{
-        background-color: orange;
+        background-color: var(--clear-color);
+    }
+
+    nav li:hover a{
+        color: var(--primary-color);
     }
 
     nav ul.show{
