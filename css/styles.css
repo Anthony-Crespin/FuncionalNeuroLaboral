@@ -160,7 +160,7 @@ hr{
 }
 
 .acerca-img{
-    width: 40%;
+    width: 30%;
     & img{
         width: 100%;
     }
@@ -171,7 +171,6 @@ hr{
     font-size: 1rem;
     color: var(--primary-color);
     text-align: justify;
-    text-indent: 60px;
 }
 
 .problematica{
@@ -467,14 +466,12 @@ hr{
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 908px) {
     .portal{
         grid-template-columns: 1fr;
         padding-top: 150px;
     }
-}
 
-@media screen and (max-width: 781px) {
     nav #icon{
         display: block;
     }
@@ -507,7 +504,9 @@ hr{
     nav ul.show{
         left: 0;
     }
+}
 
+@media screen and (max-width: 781px) {
     .acerca{
         padding: 100px 0;
     }

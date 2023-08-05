@@ -15,3 +15,5 @@ function MostrarMenu(){
 }
 
 MostrarMenu();
+
+console.log("hola mundo!")
